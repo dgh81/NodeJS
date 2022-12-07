@@ -1,0 +1,23 @@
+<html>
+
+ <%- include('./partials/head.ejs') %>
+ <script src="/public/js/adduser.js"></script>
+ <body>
+
+  <%- include('./partials/nav.ejs') %>
+
+  <div class="create-blog content">
+   <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+    <label for="password">Password</label>
+    <input type="text" id="password" required>
+    <button onclick="addUser()">Submit</button>
+   </form>
+  </div>
+
+  <%- include('./partials/footer.ejs') %>
+  
+
+ </body>
+</html>

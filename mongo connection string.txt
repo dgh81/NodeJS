@@ -1,0 +1,3 @@
+
+// mongo database connection string:
+const dbURI = 'mongodb+srv://user1:1234@cluster0.1kjeku1.mongodb.net/test?retryWrites=true&w=majority';
